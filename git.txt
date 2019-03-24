@@ -39,7 +39,8 @@
 02.git checkout (branchname)
 03.git merge 合并
 --------------------------
-04.列出分支  git branch
+04.列出分支  git branch 当前分支
+05.创建分支  git branch (branchname) --git branch
 
 
 
