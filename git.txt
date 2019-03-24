@@ -37,9 +37,14 @@
 7.分支管理
 01.git branch (branchname)主
 02.git checkout (branchname)
-03.git merge 合并
+03.git merge 合并    git merge newtest
 --------------------------
 04.列出分支  git branch
+05. git checkout -b (branchname) 
+06删除分支git branch -d (branchname)
+07.合并冲突
+8.Git 查看提交历史 git log
+
 
 
 
