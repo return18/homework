@@ -24,7 +24,8 @@
 01.git add
 02.git status -s
 03.git diff(缓存)
-04.git commit
+04.git commit -m ''
+05.git status
 
 
 
