@@ -44,6 +44,25 @@
 06删除分支git branch -d (branchname)
 07.合并冲突
 8.Git 查看提交历史 git log
+01.可以用 --oneline 选项来查看历史记录的简洁的版本
+02.用 --graph 选项，查看历史中什么时候出现了分支、合并。以下为相同的命令，开启了拓扑图选项
+03.更清楚明了地看到何时工作分叉、又何时归并git log --reverse --oneline
+04.查找指定用户的提交日志可以使用命令git log --author=Linus --oneline -5
+05.指定日期，可以执行几个选项：--since 和 --before，但是你也可以用 --until 和 --after
+06.要看 Git 项目中三周前且在四月十八日之后的所有提交，我可以执行这个（我还用了 --no-merges 选项以隐藏合并提交）
+git log --oneline --before={3.weeks.ago} --after={2010-04-18} --no-merges
+9.标签git tag -a v1.0 
+---------------
+10.远程仓库
+01.注册
+02.git remote
+03.git remote add origin https://github.com/return18/homework.git
+04.git remote
+05.git push -u origin master
+06.创建一个README.md
+
+
+
 
 
 
