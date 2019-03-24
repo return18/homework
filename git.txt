@@ -24,8 +24,22 @@
 01.git add
 02.git status -s
 03.git diff(缓存)
-04.git commit -m ''
+04.git commit -m ''  git commit -a  git commit -am '' 
 05.git status
+06.git reset HEAD 命令用于取消已缓存的内容。
+07.git rm <file>
+08.git rm -f <file>
+09.git rm --cached <file>
+10.git mv README  README.md   -r
+-------------------------------------------
+6.如何使用git忽略一下不想上传的文件
+01.创建文件touch .gitignore
+7.分支管理
+01.git branch (branchname)主
+02.git checkout (branchname)
+03.git merge 合并
+--------------------------
+04.列出分支  git branch
 
 
 
