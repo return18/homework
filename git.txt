@@ -1,0 +1,30 @@
+1.下载git
+2.配置文件
+01.用户信息git config --global user.name "runoob"  git config --global user.email test@runoob.com
+02.文件编辑器 git config --global core.editor emacs
+03.差异分析工具git config --global merge.tool vimdiff
+04.查看配置信息git config --list
+3.工作流程
+01.克隆 Git 资源作为工作目录。
+02.在克隆的资源上添加或修改文件。
+03.如果其他人修改了，你可以更新资源。
+04.在提交前查看修改。
+05.提交修改。
+06.在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
+4.创建仓库
+01.git init 生成一个 .git 目录(隐藏)。
+02.使用我们指定目录作为Git仓库 生成一个.git
+----------------------------------------------------------
+4.基本操作
+01.mkdir 目录
+02.cd 目录
+03. git init
+5.查看文件 ls -a
+5.基本快照
+01.git add
+02.git status -s
+03.git diff(缓存)
+04.git commit
+
+
+
